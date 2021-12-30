@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            background-color: rgb(155, 152, 148);
+            font-size: 64px;
+        }
+        .wrap {
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+        .second {
+            background-color: rgb(65, 158, 158);
+        }
+        .clearfix {
+            clear: both;
+        }
+        .logo {
+            width: 400px;
+            height: 300px;
+            background-color: rgb(213, 241, 88);
+            float: left;
+            margin-right: 20px;
+        }
+        .image {
+            width: 400px;
+            height: 300px;
+            background-color: rgb(224, 164, 90);
+            float: right;
+        }
+        .nav {
+            width: 400px;
+            height: 500px;
+            background-color: rgb(224, 164, 90);
+            float: left;
+            margin-right: 20px;
+        }
+        .nav:nth-last-of-type(2) {
+            margin-right: 0;
+        }
+        .logo:nth-last-of-type(2) {
+            margin-right: 0;
+        }
+        .row {
+            float: right;
+        }
+        .box {
+            float:left
+        }
+        .logo:last-child {
+            margin-right: 0;
+        }
+        .colum {
+            margin-right: auto;
+            margin-left: auto;
+            background-color: rgb(71, 56, 37);
+            width: 1000px;
+        }
+        .pool {
+            width: 400px;
+            height: 500px;
+            background-color: rgb(224, 164, 90);
+            margin-bottom: 20px;
+        }
+        .pool:last-child {
+            margin-bottom: 0;
+        }
+        .rigth {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="logo">1</div>
+        <div class="image">2</div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="wrap second">
+        <div class="logo">1</div>
+        <div class="row">
+            <div class="nav">1</div>
+            <div class="nav">2</div>
+            <div class="nav">3</div>
+            <div class="nav">4</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="wrap">
+        <div class="box">
+            <div class="logo">1</div>
+            <div class="logo">2</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row">
+            <div class="nav">1</div>
+            <div class="nav">2</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="wrap second">
+        <div class="colum">
+            <div class="box">
+                <div class="logo">1</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="row">
+                <div class="pool">1</div>
+                <div class="pool">2</div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="colum rigth">
+            <div class="box">
+                <div class="logo">1</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="row">
+                <div class="pool">1</div>
+                <div class="pool">2</div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>
